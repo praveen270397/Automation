@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22424" started-at="2020-06-30T13:31:17Z" finished-at="2020-06-30T13:31:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22424" started-at="2020-06-30T13:31:17Z" finished-at="2020-06-30T13:31:39Z">
+      <class name="Ebay.test">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ebay.test@16f7c8c1]" name="initialize" is-config="true" duration-ms="9097" started-at="2020-06-30T13:31:17Z" finished-at="2020-06-30T13:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="search_available()[pri:1, instance:Ebay.test@16f7c8c1]" name="search_available" duration-ms="101" started-at="2020-06-30T13:31:26Z" finished-at="2020-06-30T13:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_available -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ebay.test@16f7c8c1]" name="initialize" is-config="true" duration-ms="11186" started-at="2020-06-30T13:31:26Z" finished-at="2020-06-30T13:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Search_text()[pri:2, instance:Ebay.test@16f7c8c1]" name="Search_text" duration-ms="2017" started-at="2020-06-30T13:31:37Z" finished-at="2020-06-30T13:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_text -->
+      </class> <!-- Ebay.test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
