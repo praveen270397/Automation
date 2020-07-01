@@ -18,7 +18,7 @@ public class test extends Reusable {
 
 	@BeforeMethod
 	public void initialize() throws IOException {
-		Reusable s = new Reusable();
+		Reusable s wh = new Reusable();
 		s.init();
 
 	}
