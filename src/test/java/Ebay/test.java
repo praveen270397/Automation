@@ -1,4 +1,4 @@
-packag Ebay;
+package Ebay;
 
 import java.io.IOException;
 
