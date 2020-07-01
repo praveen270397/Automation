@@ -2,16 +2,19 @@ package Ebay;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Base.Home_page;
-import Base.Search_page;
 import Utilities.Reusable;
 
-public class test {
+public class test extends Reusable {
 	Home_page home = new Home_page();
-	Search_page search = new Search_page();
+
+	public test() throws IOException {
+		super();
+	}
 
 	@BeforeMethod
 	public void initialize() throws IOException {
@@ -30,10 +33,15 @@ public class test {
 	}
 
 	@Test(priority = 2)
-	public void Search_text() 
-	{
-		
-		search.Searchtext();
+	public void Search_text() {
+
+		home.Searchtext();
 	}
 
+	@AfterMethod
+	public void Teardown() {
+
+		Reusable.driver.quit();
+
+	}
 }

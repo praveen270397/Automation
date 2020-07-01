@@ -9,6 +9,7 @@
       <class name="Ebay.test">
         <methods>
           <include name="search_available"/>
+          <include name="Teardown"/>
           <include name="initialize"/>
           <include name="Search_text"/>
         </methods>
