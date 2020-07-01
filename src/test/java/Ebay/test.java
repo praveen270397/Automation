@@ -1,4 +1,4 @@
-packag Ebay;
+package Ebay;
 
 import java.io.IOException;
 
@@ -18,7 +18,9 @@ public class test extends Reusable {
 
 	@BeforeMethod
 	public void initialize() throws IOException {
-		Reusable s wh = new Reusable();
+
+
+		Reusable s why da = new Reusable();
 		s.init();
 
 	}
