@@ -30,9 +30,9 @@ public class test extends Reusable {
 	public void search_available()
 
 	{
-		home.Search_Avaialble();
+		home.Search_Avaialble();zsvsd
 		home.Search_Textbox_availability();
-	}
+	}avsdvsdvbsdbzxcsdv
 
 	@Test(priority = 2)
 	public void Search_text() {
