@@ -2,7 +2,6 @@ package Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -16,16 +15,15 @@ public class Reusable {
 	public static Properties prop;
 	public static WebDriver driver;
 
-	public Reusable() throws IOException {
-		FileInputStream file = new FileInputStream(
-		System.getProperty("user.dir") + "\\src\\main\\resources\\config.properties");
-		prop = new Properties();
-		prop.load(file);
+	public Reusable() throws IOException{
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\resources\\config.properties");
+				prop = new Properties();
+				prop.load(file);
 
 	}
 
 	public void init() throws IOException {
-
+		
 		System.setProperty("webdriver.chrome.driver",
 		System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();

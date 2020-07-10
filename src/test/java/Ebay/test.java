@@ -13,14 +13,14 @@ public class test extends Reusable {
 	Home_page home = new Home_page();
 
 	public test() throws IOException {
-		super();
+		
 	}
 
 	@BeforeMethod
 	public void initialize() throws IOException {
 
 
-		Reusable s why da = new Reusable();
+		Reusable s  = new Reusable();
 		s.init();
 
 	}
@@ -30,9 +30,9 @@ public class test extends Reusable {
 	public void search_available()
 
 	{
-		home.Search_Avaialble();
+		home.Search_Avaialble();zsvsd
 		home.Search_Textbox_availability();
-	}
+	}avsdvsdvbsdbzxcsdv
 
 	@Test(priority = 2)
 	public void Search_text() {

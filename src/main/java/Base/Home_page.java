@@ -9,9 +9,9 @@ import Utilities.Reusable;
 
 	public class Home_page  {
 		
-		private By Search_availability = By.id("gh-bn");
-		private By Search_Textbox_availability = By.id("gh-a-box");
-		private By Search_Text = By.id("gh-a");		
+		private By Search_availability = By.id("gh-btn");
+		private By Search_Textbox_availability = By.id("gh-ac-box");
+		private By Search_Text = By.id("gh-ac");		
 
 
      		
