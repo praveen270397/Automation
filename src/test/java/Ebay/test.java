@@ -46,4 +46,18 @@ public class test extends Reusable {
 		Reusable.driver.quit();
 
 	}
+
+public void test2() {
+	
+	
+}
+
+
+
+
+
+
+
+
+
 }
